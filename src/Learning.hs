@@ -42,6 +42,7 @@ module Learning (
   , nrmse
   ) where
 
+import Prelude hiding ((<>))
 import           Numeric.LinearAlgebra as LA
 import qualified Data.Vector.Storable as V
 import qualified Data.Map as M
